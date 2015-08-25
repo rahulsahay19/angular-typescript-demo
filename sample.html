@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.superhero.min.css"/>
+  <title></title>
+</head>
+<body ng-app="app">
+<div class="container">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <ul class="nav">
+        <li><a href="#">Movie Details</a></li>
+        <li><a href="#">Post New Movie</a></li>
+        <li><a href="#">Edit Profile</a></li>
+        <li><a href="#">Cache Demo</a></li>
+      </ul>
+    </div>
+  </div>
+  <div ng-controller="moviesCtrl as vm">
+    <h1>Movie Name: {{vm.movieName}}</h1>
+
+    <h2>Director Name: {{vm.directorName}}</h2>
+
+    <h3>Release Year: {{vm.releaseYear}}, Reviews: {{vm.noOfReviews}}</h3>
+  </div>
+</div>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-route.min.js"></script>
+<script src="js/com/modules/app.js"></script>
+<script src="js/com/controllers/moviesCtrl.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+</body>
+</html>

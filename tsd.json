@@ -1,0 +1,8 @@
+{
+   "bundle": "tools/typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "034b70d0335cdbd85434a1e47916752b8893dba7"
+    }
+  }
+}
